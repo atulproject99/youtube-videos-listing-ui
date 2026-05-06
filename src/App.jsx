@@ -12,7 +12,7 @@ function App() {
     setPageState("loading");
     const data = await ApiService.get("/public/youtube/videos", {
       page: pageNo,
-      limit: 4,
+      limit: 8,
     });
     if (data.value) {
       setPageState("loaded");
