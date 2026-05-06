@@ -1,0 +1,45 @@
+/* PaginationComponent.css */
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pagination-container button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    background: #ff7300;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-container button:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
+
+.pagination-container button:active {
+    transform: scale(0.95);
+}
+
+.pagination-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f0f0f0;
+    min-width: 50px;
+    text-align: center;
+}
